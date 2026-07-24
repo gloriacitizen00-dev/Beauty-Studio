@@ -495,10 +495,371 @@ margin-bottom:25px;
 }
 
 
+<style>
+
+
+/* =================================
+   SERVICES
+================================= */
+
+
+.services{
+
+
+padding:120px 8%;
+
+background:white;
+
+
+}
+
+
+
+.services-layout{
+
+
+display:grid;
+
+grid-template-columns:
+
+repeat(3,1fr);
+
+gap:70px;
+
+
+}
+
+
+
+.service-category{
+
+
+border-left:
+
+1px solid var(--gold);
+
+
+padding-left:35px;
+
+
+}
+
+
+
+.service-category span{
+
+
+font-size:45px;
+
+color:var(--gold);
+
+
+}
+
+
+
+.service-category h3{
+
+
+font-size:35px;
+
+margin:20px 0;
+
+
+}
+
+
+
+.service-category p{
+
+
+color:#555;
+
+margin-bottom:25px;
+
+
+}
+
+
+
+.service-category ul{
+
+
+list-style:none;
+
+
+}
+
+
+
+.service-category li{
+
+
+padding:10px 0;
+
+border-bottom:
+
+1px solid #eee;
+
+
+}
+
+
+
+
+
+/* =================================
+   STORY
+================================= */
+
+
+.story{
+
+
+padding:140px 15%;
+
+text-align:center;
+
+background:var(--cream);
+
+
+}
+
+
+
+.story-content{
+
+
+max-width:850px;
+
+margin:auto;
+
+
+}
+
+
+
+.story p{
+
+
+font-size:20px;
+
+margin:25px 0;
+
+
+}
+
+
+
+
+
+/* =================================
+   BOOKING
+================================= */
+
+
+.booking{
+
+
+padding:120px 10%;
+
+text-align:center;
+
+background:white;
+
+
+}
+
+
+
+.booking form{
+
+
+max-width:550px;
+
+margin:50px auto;
+
+
+display:flex;
+
+flex-direction:column;
+
+gap:18px;
+
+
+}
+
+
+
+input,
+select,
+textarea{
+
+
+padding:18px;
+
+border:1px solid #ddd;
+
+font-size:16px;
+
+background:white;
+
+
+}
+
+
+
+textarea{
+
+
+height:140px;
+
+resize:none;
+
+
+}
+
+
+
+
+
+
+
+/* =================================
+   INSTAGRAM
+================================= */
+
+
+.instagram{
+
+
+padding:100px;
+
+text-align:center;
+
+
+background:#1C1C1C;
+
+color:white;
+
+
+}
+
+
+
+.instagram h2{
+
+
+color:white;
+
+
+}
+
+
+
+
+
+
+/* =================================
+   FOOTER
+================================= */
+
+
+footer{
+
+
+background:#111;
+
+color:white;
+
+text-align:center;
+
+padding:70px;
+
+
+}
+
+
+
+footer img{
+
+
+width:60px;
+
+
+}
+
+
+
+footer h3{
+
+
+font-size:45px;
+
+margin:20px;
+
+}
+
+
+
+footer p{
+
+
+opacity:.8;
+
+margin:10px;
+
+
+}
+
+
+
+
+
+
+
+
+@media(max-width:900px){
+
+
+
+.services-layout{
+
+
+grid-template-columns:1fr;
+
+
+}
+
+
+
+.story{
+
+
+padding:80px 10%;
+
+
+}
+
+
+
+.instagram{
+
+
+padding:70px 20px;
+
+
+}
+
+
+
+
+}
 
 
 
 </style>
+
 
 
 </head>
@@ -922,7 +1283,7 @@ y tu esencia.
 
 
 
-<img src="img/mariposacr.GIF"
+<img src="mariposacr.GIF"
 class="butterfly"
 alt="Mariposa">
 
@@ -1064,13 +1425,6 @@ Instagram
 
 </section>
 
-
-
-
-
-
-
-
 <!-- =================================
      FOOTER
 ================================= -->
@@ -1078,21 +1432,15 @@ Instagram
 
 <footer>
 
-
-
-<img src="img/mariposacr.GIF"
+<img src="mariposacr.GIF"
 alt="Mariposa">
-
-
 
 <h3>
 
 DAYI SALON
 
 </h3>
-
-
-
+   
 <p>
 
 Beauty that becomes your signature
@@ -1118,383 +1466,6 @@ Instagram · WhatsApp
 
 
 </footer>
-
-
-
-
-
-
-
-
-
-
-<style>
-
-
-/* =================================
-   SERVICES
-================================= */
-
-
-.services{
-
-
-padding:120px 8%;
-
-background:white;
-
-
-}
-
-
-
-.services-layout{
-
-
-display:grid;
-
-grid-template-columns:
-
-repeat(3,1fr);
-
-gap:70px;
-
-
-}
-
-
-
-.service-category{
-
-
-border-left:
-
-1px solid var(--gold);
-
-
-padding-left:35px;
-
-
-}
-
-
-
-.service-category span{
-
-
-font-size:45px;
-
-color:var(--gold);
-
-
-}
-
-
-
-.service-category h3{
-
-
-font-size:35px;
-
-margin:20px 0;
-
-
-}
-
-
-
-.service-category p{
-
-
-color:#555;
-
-margin-bottom:25px;
-
-
-}
-
-
-
-.service-category ul{
-
-
-list-style:none;
-
-
-}
-
-
-
-.service-category li{
-
-
-padding:10px 0;
-
-border-bottom:
-
-1px solid #eee;
-
-
-}
-
-
-
-
-
-/* =================================
-   STORY
-================================= */
-
-
-.story{
-
-
-padding:140px 15%;
-
-text-align:center;
-
-background:var(--cream);
-
-
-}
-
-
-
-.story-content{
-
-
-max-width:850px;
-
-margin:auto;
-
-
-}
-
-
-
-.story p{
-
-
-font-size:20px;
-
-margin:25px 0;
-
-
-}
-
-
-
-
-
-/* =================================
-   BOOKING
-================================= */
-
-
-.booking{
-
-
-padding:120px 10%;
-
-text-align:center;
-
-background:white;
-
-
-}
-
-
-
-.booking form{
-
-
-max-width:550px;
-
-margin:50px auto;
-
-
-display:flex;
-
-flex-direction:column;
-
-gap:18px;
-
-
-}
-
-
-
-input,
-select,
-textarea{
-
-
-padding:18px;
-
-border:1px solid #ddd;
-
-font-size:16px;
-
-background:white;
-
-
-}
-
-
-
-textarea{
-
-
-height:140px;
-
-resize:none;
-
-
-}
-
-
-
-
-
-
-
-/* =================================
-   INSTAGRAM
-================================= */
-
-
-.instagram{
-
-
-padding:100px;
-
-text-align:center;
-
-
-background:#1C1C1C;
-
-color:white;
-
-
-}
-
-
-
-.instagram h2{
-
-
-color:white;
-
-
-}
-
-
-
-
-
-
-/* =================================
-   FOOTER
-================================= */
-
-
-footer{
-
-
-background:#111;
-
-color:white;
-
-text-align:center;
-
-padding:70px;
-
-
-}
-
-
-
-footer img{
-
-
-width:60px;
-
-
-}
-
-
-
-footer h3{
-
-
-font-size:45px;
-
-margin:20px;
-
-}
-
-
-
-footer p{
-
-
-opacity:.8;
-
-margin:10px;
-
-
-}
-
-
-
-
-
-
-
-
-@media(max-width:900px){
-
-
-
-.services-layout{
-
-
-grid-template-columns:1fr;
-
-
-}
-
-
-
-.story{
-
-
-padding:80px 10%;
-
-
-}
-
-
-
-.instagram{
-
-
-padding:70px 20px;
-
-
-}
-
-
-
-
-}
-
-
-
-</style>
-
-
-
 
 
 </body>
