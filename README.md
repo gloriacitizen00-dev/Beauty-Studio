@@ -3,42 +3,87 @@ Elegant beauty salon website with appointment booking design and nail services s
 
 # 💅 Dayi Salon
 
-### New York Nail Atelier
+## New York Nail Atelier
 
-> *"La belleza comienza en los detalles."*
+Copyright (c) 2026 Gloria Martinez
 
----
-
-## 🌸 About the Project
-
-**Dayi Salon** is a modern and elegant website created for a professional nail artist in Costa Rica.
-
-Rather than building a traditional business website, this project focuses on creating a digital identity that reflects the quality, creativity and professionalism behind the brand.
-
-The objective was to design a clean and editorial experience inspired by boutique nail studios and beauty brands from New York, allowing visitors to experience the brand before exploring its services.
+All rights reserved.
 
 ---
 
-# 🎯 Project Goals
+## ✨ Welcome to Dayi Salon
 
-This project was developed with the following objectives:
+Dayi Salon is a modern digital experience created for a professional nail artist.
 
-- Create a modern and elegant online presence.
-- Build trust through visual design.
-- Showcase the artist's work before presenting services.
-- Improve the booking experience.
-- Prepare the website for future CRM, WhatsApp and Instagram integration.
-- Design a responsive experience for desktop and mobile devices.
+More than a beauty website, this project explores how visual identity, editorial design and user experience can transform a personal brand into a premium digital presence.
+
+Inspired by New York beauty boutiques and editorial fashion magazines, the goal was to create a clean, elegant and timeless interface that allows the artist's work to become the true protagonist.
 
 ---
 
-# 🎨 UX Design
+# 🦋 Design Philosophy
 
-One of the biggest design decisions during this project was moving away from a traditional service-based layout.
+The entire project was built around one simple idea:
 
-Instead of immediately displaying a list of services, the website was redesigned around the journey of a potential client.
+> **Beauty begins in the details.**
 
-The experience follows this flow:
+Instead of overwhelming visitors with long lists of services, the experience was designed to let the artwork speak first.
+
+Every section was carefully planned to guide visitors naturally from inspiration to confidence and finally to booking an appointment.
+
+The website follows a minimalist philosophy where typography, photography and white space become the main design elements.
+
+---
+
+# 🎨 Design Concept
+
+The visual identity combines inspiration from:
+
+• New York Nail Studios
+
+• Editorial Fashion Magazines
+
+• Luxury Beauty Brands
+
+• Boutique Creative Spaces
+
+Rather than creating a traditional salon website, the objective was to build a digital atelier where every detail reflects elegance, professionalism and creativity.
+
+---
+
+# 🖼 UX Design Process
+
+One of the biggest design decisions happened during the early stages of development.
+
+The original concept followed the traditional structure used by many beauty websites:
+
+```
+Hero
+
+↓
+
+Services
+
+↓
+
+Booking
+```
+
+Although functional, it felt generic and lacked personality.
+
+The project was redesigned from the perspective of a future client.
+
+Instead of asking:
+
+> "What services do we offer?"
+
+The design process asked:
+
+> "What does a client need to feel before booking an appointment?"
+
+This completely changed the hierarchy of the website.
+
+The final experience became:
 
 ```
 Hero
@@ -64,160 +109,102 @@ Booking
 Footer
 ```
 
-This structure answers a simple UX question:
-
-> **What does a potential client need to see before deciding to book an appointment?**
-
-Instead of selling services first, the website introduces the brand, showcases the artist's work, builds confidence and finally invites the visitor to reserve an appointment.
+This approach transforms the website into a visual journey where trust is created before asking the visitor to make a decision.
 
 ---
 
-# 🖼 Design Process
+# 🌸 Visual Identity
 
-This project originally started as a simple landing page for a nail salon.
+The interface was designed around four principles:
 
-During the design process, the structure was completely reimagined after identifying that the first versions felt more like a generic template than a real beauty brand.
+• Editorial photography
 
-Several UX decisions transformed the project:
+• Elegant typography
 
-- Large editorial photography replaced generic service cards.
-- The gallery became the main visual element.
-- Content hierarchy was simplified.
-- White space was increased to create a premium feeling.
-- Sections were reorganized following the natural decision-making process of a client.
+• Minimalist layouts
 
-Rather than creating a demo website, the goal became building a digital identity that could realistically represent a professional nail artist competing in a modern beauty market.
+• Premium user experience
+
+Every section uses generous white space to create a calm and luxurious feeling while allowing the artwork to become the center of attention.
 
 ---
 
-# ✨ Visual Concept
+# 💅 Features
 
-The design was inspired by:
+The project currently includes:
 
-- New York beauty boutiques
-- Editorial fashion magazines
-- Creative nail studios
-- Luxury beauty brands
+• Editorial landing page
 
-The visual identity aims to communicate:
+• Responsive layout
 
-- Elegance
-- Professionalism
-- Creativity
-- Minimalism
-- Confidence
-- Attention to detail
+• Professional image gallery
 
----
+• Elegant service catalog
 
-# 🎨 Color Palette
+• Brand story section
 
-| Color | Purpose |
-|--------|---------|
-| Champagne | Main background |
-| Editorial Black | Typography |
-| Soft Gold | Highlights |
-| Nude Pink | Decorative accents |
-| White | Clean spacing |
+• Appointment request form
+
+• Future CRM integration
+
+• Future Instagram integration
+
+• Future WhatsApp integration
 
 ---
 
-# 🔠 Typography
+# 💻 Built With
 
-### Abril Fatface
+HTML5
 
-Used for titles and brand identity.
+CSS3
 
-### Satisfy
+CSS Grid
 
-Used for elegant quotes and decorative text.
+Flexbox
 
-### Sans-serif
+Responsive Design
 
-Used for paragraphs to maximize readability.
-
----
-
-# 🛠 Technologies
-
-- HTML5
-- CSS3
-- Responsive Design
-- CSS Grid
-- Flexbox
-- Google Fonts
+Google Fonts
 
 ---
 
-# 📱 Features
+# 🚀 Future Development
 
-- Responsive layout
-- Editorial landing page
-- Image gallery
-- Service catalog
-- Brand story section
-- Appointment request form
-- Prepared for WhatsApp integration
-- Prepared for Instagram integration
-- Prepared for future CRM implementation
+The project has been structured to continue growing.
 
----
+Future updates include:
 
-# 🚀 Future Improvements
+• WhatsApp booking
 
-The project was designed with scalability in mind.
+• Instagram feed integration
 
-Planned improvements include:
+• CRM connection
 
-- WhatsApp appointment booking
-- Instagram integration
-- Customer Relationship Management (CRM)
-- Client management system
-- Appointment dashboard
-- Administrative panel
-- Online booking calendar
+• Appointment dashboard
+
+• Customer management
+
+• Online booking system
 
 ---
 
-# 💡 Lessons Learned
+# 🎯 Project Vision
 
-This project reinforced an important design principle:
+Dayi Salon represents more than a portfolio project.
 
-> **A successful website should not simply present information—it should communicate the personality of a brand and create trust from the very first interaction.**
+It explores how UX Design, branding and front-end development can work together to create an authentic digital identity for a real business.
 
-The most significant improvement during development was shifting from a component-based layout to an experience focused on the client's journey.
-
-Designing from the user's perspective resulted in a cleaner, stronger and more professional interface.
+Every design decision—from typography to layout hierarchy—was made to communicate professionalism, confidence and attention to detail.
 
 ---
 
-# 👩‍🎨 About the Brand
+# 🤍 Final Thought
 
-Dayi Salon represents the work of a passionate nail artist who combines creativity, precision and dedication to create personalized designs for every client.
+> **Beauty begins in the details.**
 
-Each appointment is treated as an opportunity to express personal style through elegant and carefully crafted nail art.
+This sentence became the foundation of the entire project.
 
-**"La belleza comienza en los detalles."**
+Every photograph, every margin, every section and every interaction was designed to celebrate the artistry behind every manicure.
 
----
-
-# 👩‍💻 Development
-
-This project was designed and developed as a real-world portfolio project, combining:
-
-- UX Design
-- UI Design
-- Brand Identity
-- Front-End Development
-
-The objective was to simulate the complete design process of a freelance project, from client discovery and visual identity to interface development.
-
----
-
-# 📄 License
-
-This repository was created as part of a professional portfolio.
-
-The source code may be used for educational purposes.
-
-The visual identity, branding and content belong to the Dayi Salon project.
+Because beautiful design is also found in the smallest details.
