@@ -1,152 +1,223 @@
 # Beauty-Studio
 Elegant beauty salon website with appointment booking design and nail services showcase.
 
-Dayi Salon
-New York Nail Atelier
+# 💅 Dayi Salon
 
-La belleza comienza en los detalles.
+### New York Nail Atelier
 
-🌸 Acerca del proyecto
+> *"La belleza comienza en los detalles."*
 
-Dayi Salon es un sitio web diseñado para una artista profesional de uñas en Costa Rica. El objetivo fue crear una presencia digital moderna, elegante y enfocada en transmitir confianza desde el primer momento.
+---
 
-Más que desarrollar una página informativa, este proyecto buscó construir una identidad visual que reflejara el trabajo de la artista y la calidad de sus servicios.
+## 🌸 About the Project
 
-Design Process
+**Dayi Salon** is a modern and elegant website created for a professional nail artist in Costa Rica.
 
-Este proyecto comenzó como una página tradicional para un salón de uñas. Durante el proceso de investigación y diseño, se replanteó completamente la estructura para priorizar la experiencia de la clienta. En lugar de presentar primero un listado de servicios, se decidió destacar el trabajo de la artista mediante una galería editorial inspirada en estudios boutique de Nueva York. Este cambio permitió construir una experiencia más coherente con la identidad de la marca y con la forma en que las clientas toman la decisión de reservar una cita.
+Rather than building a traditional business website, this project focuses on creating a digital identity that reflects the quality, creativity and professionalism behind the brand.
 
-🎯 Objetivos del proyecto
+The objective was to design a clean and editorial experience inspired by boutique nail studios and beauty brands from New York, allowing visitors to experience the brand before exploring its services.
 
-Durante la fase de diseño se definieron varios objetivos:
+---
 
-Crear una experiencia visual inspirada en estudios boutique de Nueva York.
-Mostrar el trabajo de la artista antes que los servicios.
-Mantener una interfaz limpia y elegante.
-Diseñar una página fácil de navegar tanto en computadoras como en dispositivos móviles.
-Preparar la estructura para futuras integraciones como CRM, WhatsApp e Instagram.
-🎨 Diseño UX
+# 🎯 Project Goals
 
-Uno de los principales cambios durante el desarrollo fue dejar atrás un diseño tradicional basado en tarjetas.
+This project was developed with the following objectives:
 
-En su lugar se creó una experiencia donde la usuaria recorre la página de forma natural:
+- Create a modern and elegant online presence.
+- Build trust through visual design.
+- Showcase the artist's work before presenting services.
+- Improve the booking experience.
+- Prepare the website for future CRM, WhatsApp and Instagram integration.
+- Design a responsive experience for desktop and mobile devices.
 
+---
+
+# 🎨 UX Design
+
+One of the biggest design decisions during this project was moving away from a traditional service-based layout.
+
+Instead of immediately displaying a list of services, the website was redesigned around the journey of a potential client.
+
+The experience follows this flow:
+
+```
 Hero
 
 ↓
 
-Galería
+Gallery
 
 ↓
 
-Servicios
+Services
 
 ↓
 
-Nuestra esencia
+Our Story
 
 ↓
 
-Reserva
+Booking
 
 ↓
 
 Footer
+```
 
-Este recorrido responde a una pregunta sencilla:
+This structure answers a simple UX question:
 
-¿Qué necesita ver una futura clienta para sentirse segura de reservar una cita?
+> **What does a potential client need to see before deciding to book an appointment?**
 
-Primero conoce la marca.
+Instead of selling services first, the website introduces the brand, showcases the artist's work, builds confidence and finally invites the visitor to reserve an appointment.
 
-Después observa el trabajo realizado.
+---
 
-Luego descubre los servicios.
+# 🖼 Design Process
 
-Finalmente agenda una cita.
+This project originally started as a simple landing page for a nail salon.
 
-✨ Concepto visual
+During the design process, the structure was completely reimagined after identifying that the first versions felt more like a generic template than a real beauty brand.
 
-La identidad del proyecto fue inspirada en:
+Several UX decisions transformed the project:
 
-Boutiques de Manhattan
-Revistas editoriales de moda
-Estudios creativos
-Marcas de belleza premium
+- Large editorial photography replaced generic service cards.
+- The gallery became the main visual element.
+- Content hierarchy was simplified.
+- White space was increased to create a premium feeling.
+- Sections were reorganized following the natural decision-making process of a client.
 
-El objetivo fue transmitir una sensación de:
+Rather than creating a demo website, the goal became building a digital identity that could realistically represent a professional nail artist competing in a modern beauty market.
 
-Elegancia
-Profesionalismo
-Delicadeza
-Minimalismo
-Cercanía
-🎨 Paleta de colores
-Color	Uso
-Champagne	Fondo principal
-Dorado	Detalles y títulos
-Rosa Nude	Elementos decorativos
-Negro Editorial	Tipografía y contraste
-🔤 Tipografía
+---
 
-Abril Fatface
+# ✨ Visual Concept
 
-Utilizada para los títulos principales y la identidad de la marca.
+The design was inspired by:
 
-Satisfy
+- New York beauty boutiques
+- Editorial fashion magazines
+- Creative nail studios
+- Luxury beauty brands
 
-Utilizada para frases destacadas y mensajes con un tono más humano.
+The visual identity aims to communicate:
 
-Inter (o Arial en la primera versión)
+- Elegance
+- Professionalism
+- Creativity
+- Minimalism
+- Confidence
+- Attention to detail
 
-Utilizada para mejorar la legibilidad del contenido.
+---
 
-🛠 Tecnologías
-HTML5
-CSS3
-Responsive Design
-Flexbox
-CSS Grid
-Google Fonts
-📱 Funcionalidades
-Diseño responsive.
-Galería de trabajos.
-Catálogo de servicios.
-Información sobre la artista.
-Formulario para solicitud de citas.
-Preparado para integrar WhatsApp.
-Preparado para integrar Instagram.
-Preparado para integrar un CRM personalizado.
-🚀 Futuras mejoras
+# 🎨 Color Palette
 
-El proyecto fue diseñado pensando en su crecimiento.
+| Color | Purpose |
+|--------|---------|
+| Champagne | Main background |
+| Editorial Black | Typography |
+| Soft Gold | Highlights |
+| Nude Pink | Decorative accents |
+| White | Clean spacing |
 
-Las siguientes funcionalidades se encuentran planificadas:
+---
 
-Integración con WhatsApp.
-Integración con Instagram.
-Sistema de citas conectado a un CRM.
-Administración de clientes.
-Panel de gestión de servicios.
-Publicación automática de nuevos diseños.
-💡 Aprendizajes
+# 🔠 Typography
 
-Este proyecto reforzó una idea importante durante el proceso de diseño:
+### Abril Fatface
 
-Una página web no solo debe mostrar información; debe transmitir la personalidad de una marca y generar confianza desde el primer vistazo.
+Used for titles and brand identity.
 
-El cambio más importante fue pasar de un diseño basado en componentes a una experiencia inspirada en el recorrido real de una clienta.
+### Satisfy
 
-👩‍🎨 Sobre la marca
+Used for elegant quotes and decorative text.
 
-Dayi Salon representa el trabajo de una artista de uñas que combina creatividad, dedicación y atención al detalle para ofrecer diseños personalizados.
+### Sans-serif
 
-Cada servicio busca reflejar el estilo y la personalidad de cada clienta, porque la belleza comienza en los detalles.
+Used for paragraphs to maximize readability.
 
-👩‍💻 Desarrollo
+---
 
-Diseño UX/UI, identidad visual y desarrollo web realizados como un proyecto personalizado, construido desde cero para responder a las necesidades reales de una profesional del sector de la belleza.
+# 🛠 Technologies
 
-📄 Licencia
+- HTML5
+- CSS3
+- Responsive Design
+- CSS Grid
+- Flexbox
+- Google Fonts
 
-Este proyecto fue desarrollado como parte de un portafolio profesional. El código puede utilizarse como referencia educativa, mientras que la identidad visual, el contenido y la marca corresponden al proyecto de Dayi Salon.
+---
+
+# 📱 Features
+
+- Responsive layout
+- Editorial landing page
+- Image gallery
+- Service catalog
+- Brand story section
+- Appointment request form
+- Prepared for WhatsApp integration
+- Prepared for Instagram integration
+- Prepared for future CRM implementation
+
+---
+
+# 🚀 Future Improvements
+
+The project was designed with scalability in mind.
+
+Planned improvements include:
+
+- WhatsApp appointment booking
+- Instagram integration
+- Customer Relationship Management (CRM)
+- Client management system
+- Appointment dashboard
+- Administrative panel
+- Online booking calendar
+
+---
+
+# 💡 Lessons Learned
+
+This project reinforced an important design principle:
+
+> **A successful website should not simply present information—it should communicate the personality of a brand and create trust from the very first interaction.**
+
+The most significant improvement during development was shifting from a component-based layout to an experience focused on the client's journey.
+
+Designing from the user's perspective resulted in a cleaner, stronger and more professional interface.
+
+---
+
+# 👩‍🎨 About the Brand
+
+Dayi Salon represents the work of a passionate nail artist who combines creativity, precision and dedication to create personalized designs for every client.
+
+Each appointment is treated as an opportunity to express personal style through elegant and carefully crafted nail art.
+
+**"La belleza comienza en los detalles."**
+
+---
+
+# 👩‍💻 Development
+
+This project was designed and developed as a real-world portfolio project, combining:
+
+- UX Design
+- UI Design
+- Brand Identity
+- Front-End Development
+
+The objective was to simulate the complete design process of a freelance project, from client discovery and visual identity to interface development.
+
+---
+
+# 📄 License
+
+This repository was created as part of a professional portfolio.
+
+The source code may be used for educational purposes.
+
+The visual identity, branding and content belong to the Dayi Salon project.
