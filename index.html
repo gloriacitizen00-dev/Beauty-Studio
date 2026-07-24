@@ -5,32 +5,69 @@
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Beauty Studio | Nail Care</title>
+
+
 <link rel="icon" type="image/jpeg" href="favicon.jpg">
+
+
+<!-- GOOGLE FONTS -->
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Satisfy&display=swap" rel="stylesheet">
-    
-<title>Beauty Studio | Nail Care</title>
+
 
 
 <style>
 
-*{
-    box-sizing:border-box;
-    margin:0;
-    padding:0;
-    font-family:'Arial', sans-serif;
+
+/* =====================
+   VARIABLES
+===================== */
+
+
+:root{
+
+    --gold:#D4AF37;
+
+    --pink:#E8A7B8;
+
+    --soft-pink:#FFF0F5;
+
+    --dark:#3B3035;
+
+    --white:#FFFFFF;
+
 }
+
+
+
+/* =====================
+   RESET
+===================== */
+
+
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
 
 
 body{
 
-    background:#fff;
+    background:var(--white);
 
-    color:#4a3b3b;
+    color:var(--dark);
 
     font-family:Arial, sans-serif;
 
@@ -38,11 +75,89 @@ body{
 
 
 
-/* HEADER */
+/* =====================
+   TITLES
+===================== */
 
-header{
 
-    min-height:500px;
+h1,
+h2{
+
+    font-family:"Abril Fatface", serif;
+
+    color:var(--gold);
+
+}
+
+
+
+h2{
+
+    font-size:40px;
+
+    text-align:center;
+
+    margin-bottom:40px;
+
+}
+
+
+
+p{
+
+    line-height:1.6;
+
+}
+
+
+
+/* =====================
+   BUTTON
+===================== */
+
+
+.btn{
+
+
+    display:inline-block;
+
+    background:var(--pink);
+
+    color:white;
+
+    padding:15px 40px;
+
+    border-radius:50px;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+
+
+.btn:hover{
+
+    background:var(--gold);
+
+    transform:translateY(-3px);
+
+}
+
+
+
+
+
+/* =====================
+   HERO
+===================== */
+
+
+.hero{
+
+
+    min-height:100vh;
 
     display:flex;
 
@@ -54,61 +169,19 @@ header{
 
     text-align:center;
 
+
     background:
+
     linear-gradient(
-    rgba(255,240,245,.9),
-    rgba(255,255,255,.9)
+
+    rgba(255,240,245,.85),
+
+    rgba(255,255,255,.95)
+
     );
 
-}
 
-
-header h1{
-
-    font-size:55px;
-
-    color:#c9a227;
-
-    letter-spacing:3px;
-
-    font-family:"Abril Fatface", serif;
-
-}
-
-
-header p{
-
-    font-size:20px;
-
-    margin:20px;
-
-}
-
-
-
-button{
-
-    background:#d98ca3;
-
-    color:white;
-
-    border:none;
-
-    padding:15px 35px;
-
-    border-radius:30px;
-
-    font-size:16px;
-
-    cursor:pointer;
-
-}
-
-
-
-button:hover{
-
-    background:#c9a227;
+    padding:40px;
 
 }
 
@@ -116,32 +189,140 @@ button:hover{
 
 .butterfly{
 
-    width:100px;
+
+    width:120px;
+
+    animation:
+
+    float 4s ease-in-out infinite;
 
 }
 
 
 
-/* SERVICES */
+@keyframes float{
+
+
+0%{
+
+    transform:translateY(0);
+
+}
+
+
+50%{
+
+    transform:translateY(-20px);
+
+}
+
+
+100%{
+
+    transform:translateY(0);
+
+}
+
+
+}
+
+
+
+.hero h1{
+
+
+    font-size:80px;
+
+    letter-spacing:3px;
+
+}
+
+
+
+.slogan{
+
+
+    font-family:"Satisfy", cursive;
+
+    color:var(--pink);
+
+    font-size:35px;
+
+    margin:20px;
+
+}
+
+
+
+.hero p{
+
+    font-size:18px;
+
+    max-width:600px;
+
+    margin-bottom:30px;
+
+}
+
+
+
+
+
+/* =====================
+   ABOUT
+===================== */
+
+
+.about{
+
+
+    padding:80px 10%;
+
+    text-align:center;
+
+}
+
+
+
+.about-box{
+
+
+    max-width:800px;
+
+    margin:auto;
+
+    background:var(--soft-pink);
+
+    padding:40px;
+
+    border-radius:30px;
+
+}
+
+
+
+.about-box p{
+
+
+    font-size:18px;
+
+}
+
+
+
+
+
+/* =====================
+   SERVICES
+===================== */
 
 
 .services{
 
-    padding:50px 10%;
 
-}
+    padding:80px 10%;
 
-
-
-h2{
-
-    text-align:center;
-
-    color:#c9a227;
-
-    font-size:35px;
-
-    margin-bottom:40px;
+    background:#fff;
 
 }
 
@@ -149,13 +330,15 @@ h2{
 
 .cards{
 
-    display:flex;
 
-    gap:25px;
+    display:grid;
 
-    justify-content:center;
+    grid-template-columns:
 
-    flex-wrap:wrap;
+    repeat(auto-fit,minmax(260px,1fr));
+
+
+    gap:30px;
 
 }
 
@@ -163,20 +346,52 @@ h2{
 
 .card{
 
+
     background:white;
 
-    width:300px;
+    padding:35px;
 
-    padding:30px;
+    border-radius:25px;
 
-    border-radius:20px;
+
+    text-align:center;
+
+
+    border-top:
+
+    5px solid var(--gold);
+
 
 
     box-shadow:
-    0 5px 20px rgba(0,0,0,.1);
+
+    0 10px 30px rgba(0,0,0,.08);
 
 
-    border-top:5px solid #d98ca3;
+    transition:.3s;
+
+
+}
+
+
+
+.card:hover{
+
+
+    transform:translateY(-10px);
+
+
+}
+
+
+
+.card-icon{
+
+
+    font-size:45px;
+
+    margin-bottom:20px;
+
 
 }
 
@@ -184,146 +399,33 @@ h2{
 
 .card h3{
 
-    color:#d98ca3;
 
-    margin-bottom:20px;
+    color:var(--pink);
+
+    font-size:25px;
+
+    margin-bottom:15px;
+
 
 }
 
 
 
-.card li{
+.price{
 
-    list-style:none;
 
-    padding:8px;
+    margin-top:20px;
+
+    color:var(--gold);
+
+    font-size:22px;
+
+    font-weight:bold;
+
 
 }
 
 
-
-/* PAYMENT */
-
-
-.payment{
-
-    background:#fff0f5;
-
-    text-align:center;
-
-    padding:50px;
-
-}
-
-
-
-.payment p{
-
-    font-size:20px;
-
-    margin:10px;
-
-}
-
-
-
-/* APPOINTMENT */
-
-
-.appointment{
-
-    padding:50px 10%;
-
-    text-align:center;
-
-}
-
-
-
-.side-butterfly{
-
-    width:80px;
-
-}
-
-
-
-form{
-
-    max-width:500px;
-
-    margin:auto;
-
-    display:flex;
-
-    flex-direction:column;
-
-    gap:15px;
-
-}
-
-
-
-input,
-select,
-textarea{
-
-    padding:15px;
-
-    border-radius:10px;
-
-    border:1px solid #ddd;
-
-    font-size:16px;
-
-}
-
-
-
-textarea{
-
-    height:120px;
-
-}
-
-.slogan{
-
-    font-family:"Satisfy", cursive;
-
-    font-size:30px;
-
-    color:#d98ca3;
-
-}
-
-h2{
-
-    font-family:"Abril Fatface", serif;
-
-    color:#c9a227;
-
-    text-align:center;
-
-    font-size:38px;
-
-}
-
-
-
-/* FOOTER */
-
-
-footer{
-
-    background:#c9a227;
-
-    color:white;
-
-    text-align:center;
-
-    padding:20px;
-
-}
 
 
 
@@ -337,33 +439,98 @@ footer{
 <body>
 
 
-<header>
+
+<!-- =====================
+     HERO
+===================== -->
 
 
-<img src="mariposacr.GIF" 
-class="butterfly" 
+<section class="hero">
+
+
+<img src="img/mariposacr.GIF"
+class="butterfly"
 alt="Mariposa">
 
 
+
 <h1>
-Dayi Nails
+Beauty Studio
 </h1>
 
 
-<p class="slogan">
-Belleza, elegancia y diseños creados para ti
+
+<div class="slogan">
+
+Nails • Beauty • Elegance
+
+</div>
+
+
+
+<p>
+
+Belleza, elegancia y diseños creados
+para resaltar tu estilo.
+
 </p>
 
 
-<button>
+
+<a href="#citas" class="btn">
+
 Reservar cita
-</button>
 
-
-</header>
+</a>
 
 
 
+</section>
+
+
+
+
+
+
+<!-- =====================
+     ABOUT
+===================== -->
+
+
+<section class="about">
+
+
+<h2>
+Nuestra esencia
+</h2>
+
+
+
+<div class="about-box">
+
+
+<p>
+
+Creamos diseños personalizados cuidando
+cada detalle para transformar cada cita
+en una experiencia única de belleza.
+
+</p>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+<!-- =====================
+     SERVICES
+===================== -->
 
 
 <section class="services">
@@ -382,224 +549,97 @@ Nuestros Servicios
 <div class="card">
 
 
-<h3>
-💅 Manos
-</h3>
-
-
-<ul>
-
-<li>Manicure clásico</li>
-
-<li>Semipermanente en manos</li>
-
-<li>Gel X</li>
-
-<li>Acrílicas</li>
-
-<li>Gel calcio uña corta</li>
-
-<li>Gel calcio uña larga</li>
-
-<li>Nivelación con Rubber</li>
-
-<li>Reposición de uña</li>
-
-</ul>
-
-
+<div class="card-icon">
+💅
 </div>
-
-
-
-
-
-
-<div class="card">
 
 
 <h3>
-🦶 Pies
-</h3>
-
-
-<ul>
-
-<li>Semipermanente en pies</li>
-
-<li>Pedicure Spa + Semi</li>
-
-<li>Pedicure seco + Semi</li>
-
-</ul>
-
-
-</div>
-
-
-
-
-
-
-<div class="card">
-
-
-<h3>
-✨ Diseños especiales
-</h3>
-
-
-<ul>
-
-<li>Nail Art</li>
-
-<li>Diseños personalizados</li>
-
-<li>Uñas Press On</li>
-
-<li>Retiro de producto</li>
-
-</ul>
-
-
-</div>
-
-
-
-</div>
-
-
-</section>
-
-
-
-
-
-
-
-<section class="payment">
-
-
-<h2>
-Métodos de pago
-</h2>
-
-
-
-<p>
-💵 Efectivo
-</p>
-
-
-
-<p>
-📱 SINPE
-</p>
-
-
-
-<small>
-El pago se realiza presencialmente al finalizar el servicio.
-</small>
-
-
-
-</section>
-
-
-
-
-
-
-
-<section class="appointment">
-
-
-<img src="mariposacr.GIF"
-class="side-butterfly"
-alt="Mariposa">
-
-
-
-<h2>
-Solicita tu cita
-</h2>
-
-
-
-
-<form>
-
-
-<input 
-type="text"
-placeholder="Nombre completo">
-
-
-
-<input 
-type="tel"
-placeholder="Número de teléfono">
-
-
-
-<select>
-
-
-<option>
-Selecciona tu servicio
-</option>
-
-
-<option>
 Gel X
-</option>
+</h3>
 
-
-<option>
-Acrílicas
-</option>
-
-
-<option>
-Semipermanente manos
-</option>
-
-
-<option>
-Pedicure Spa + Semi
-</option>
-
-
-</select>
-
-
-
-
-
-<input 
-type="date">
-
-<textarea
-placeholder="Notas adicionales">
-</textarea>
-
-<button>
-Enviar solicitud
-</button>
-
-</form>
-
-</section>
-
-<footer>
 
 <p>
-🦋 Beauty Studio © 2026
+
+Extensiones elegantes
+con acabado profesional.
+
 </p>
 
-</footer>
 
-</body>
+<div class="price">
 
-</html>
+Desde ₡____
+
+</div>
+
+
+</div>
+
+
+
+
+
+<div class="card">
+
+
+<div class="card-icon">
+✨
+</div>
+
+
+<h3>
+Acrílicas
+</h3>
+
+
+<p>
+
+Diseños resistentes
+adaptados a tu estilo.
+
+</p>
+
+
+<div class="price">
+
+Desde ₡____
+
+</div>
+
+
+</div>
+
+
+
+
+
+<div class="card">
+
+
+<div class="card-icon">
+🌸
+</div>
+
+
+<h3>
+Semipermanente
+</h3>
+
+
+<p>
+
+Color y brillo duradero
+para tus manos.
+
+</p>
+
+
+<div class="price">
+
+Desde ₡____
+
+</div>
+
+
+</div>
